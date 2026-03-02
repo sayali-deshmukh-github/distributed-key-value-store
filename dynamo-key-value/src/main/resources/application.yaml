@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dynamo-key-value
+  replication:
+    mode: dynamo
+    replication-factor: 3
+    read-quorum: 2
+    write-quorum: 2
+  cluster:
+    node-count: 5
+    replication-factor: 3
+    write-quorum: 2
+    read-quorum: 2
+  
